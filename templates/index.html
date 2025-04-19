@@ -1,0 +1,30 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PDF QA App</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <h1>Upload PDF and Ask a Question</h1>
+
+  <form id="uploadForm" enctype="multipart/form-data">
+    <input type="file" name="file" required />
+    <button type="submit">Upload</button>
+  </form>
+
+  <div id="uploadResult"></div>
+
+  <hr>
+
+  <form id="qaForm">
+    <input type="text" id="question" placeholder="Digite sua pergunta..." required />
+    <button type="submit">Perguntar</button>
+  </form>
+
+  <div id="answerResult"></div>
+
+  <!-- Link to external script -->
+  <script src="/static/script.js"></script>
+</body>
+</html>

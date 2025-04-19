@@ -1,0 +1,45 @@
+/* static/style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 40px;
+    max-width: 700px;
+    margin: auto;
+  }
+  
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+form {
+    margin-bottom: 20px;
+  }
+  
+input[type="text"], input[type="file"] {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+button:hover {
+    background-color: #0056b3;
+  }
+  
+#uploadResult, #answerResult {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  
