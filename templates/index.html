@@ -7,10 +7,10 @@
 </head>
 <body>
 
-  <div style="display: flex; height: 100vh; font-family: Arial, sans-serif;">
+  <div id="container">
 
     <!-- Left Sidebar -->
-    <div style="width: 20vw; background-color: #f4f4f4; padding: 20px;">
+    <div id="sidebar">
       <h3>Envie o arquivo.</h3>
 
       <form id="uploadForm" enctype="multipart/form-data">
@@ -22,7 +22,7 @@
     </div>
 
     <!-- Right Main Content -->
-    <div style="flex: 1; padding: 20px;">
+    <div id="main">
       <h1>Faça uma pergunta sobre seu pdf.</h1>
       <form id="qaForm">
         <input type="text" id="question" placeholder="Digite sua pergunta..." required />

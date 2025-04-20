@@ -7,6 +7,22 @@ body {
     max-width: 700px;
     margin: auto;
   }
+
+#container {
+    display: flex;
+    height: 100vh;
+  }
+  
+#sidebar {
+    width: 20vw;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+#main {
+    flex: 1;
+    padding: 20px;
+  }
   
 h1 {
     color: #333;
