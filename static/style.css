@@ -4,7 +4,6 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
     padding: 40px;
-    max-width: 700px;
     margin: auto;
   }
 
@@ -17,13 +16,22 @@ body {
     width: 20vw;
     background-color: #f4f4f4;
     padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
 #main {
     flex: 1;
     padding: 20px;
   }
-  
+
+#sidebar-title {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.5rem);
+  }
+
 h1 {
     color: #333;
     margin-bottom: 20px;
