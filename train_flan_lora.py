@@ -23,3 +23,16 @@ def tokenize(sample):
     return inputs
 
 tokenized_dataset = dataset.map(tokenize)
+
+
+#Defining training arguments
+training_args = TrainingArguments(
+    output_dir="./results",
+    per_device_train_batch_size=4,
+    num_train_epochs=3,
+    learning_rate=1e-4,
+    logging_steps=10,
+    save_strategy="epoch",
+    evaluation_strategy="no",
+    report_to="none"
+)
